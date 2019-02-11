@@ -1,0 +1,16 @@
+@import "./normalize.min";
+@import "./fonts";
+@import "./variables";
+@import "./general";
+
+// Blocks
+
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/nav-list";
+@import "blocks/main";
+@import "blocks/sort";
+@import "blocks/footer";
+@import "blocks/footer-list";
+@import "blocks/socials";
+@import "blocks/contact";
