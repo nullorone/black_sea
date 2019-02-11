@@ -1,16 +1,21 @@
 extends ../layout
 
 block content
-  main.main
-    h2.main__title Каталог круизов
-    .main__sort.sort
-      span.sort__descr Сортировать круизы по
-      ul.sort__list
-        li.sort__item
-          a.sort__link(href="#") цене
-        li.sort__item
-          a.sort__link(href="#") продолжительности
+  main
+    .main
+      h2.main__title Каталог круизов
+      .main__sort.sort
+        span.sort__descr Сортировать круизы по
+        ul.sort__list
+          li.sort__item
+            a.sort__link(href="#") цене
+          li.sort__item
+            a.sort__link(href="#") продолжительности
+        svg.sort__icon(width="8", height="5")
+          use(xlink:href="../img/sprite.svg#icon-arrow")
 
-    include ../sections/offers
+      include ../sections/offers
 
-    a.main__link(href="#") Больше круизов
+      a.main__link(href="#") Больше круизов
+        svg.main__link-icon(width="8", height="5")
+          use(xlink:href="../img/sprite.svg#icon-arrow")
