@@ -1,23 +1,32 @@
 footer.footer
-  ul.footer__list.footer-list
-    li.footer__item
-      a.footer__link(href="#") Вход для партнеров
-    li.footer__item
-      a.footer__link(href="#") О компании
-    li.footer__item
-      a.footer__link(href="#") Контакты
-  .footer__socials
-    span.footer__socials-descr Будь на связи:
-    ul.footer__socials-list.socials
-      li.socials__item
-        a.socials__link(href="#") Морские круизы вконтакте
-      li.socials__item
-        a.socials__link(href="#") Морские круизы в одноклассниках
-      li.socials__item
-        a.socials__link(href="#") Морские круизы на Youtube
-      li.socials__item
-        a.socials__link(href="#") Морские круизы в instagram
-  .footer__contact.contact
-    a.contact__link(href="tel:88005006105") 8 800 500-61-05
-    span.contact__descr Круглосуточная поддержка
-    span.footer__contact-copyright &#169; 2016 OOO «Городские Круизы»
+  .container
+    ul.footer__list.footer-list
+      li.footer__item
+        a.footer__link(href="#") Вход для партнеров
+      li.footer__item
+        a.footer__link(href="#") О компании
+      li.footer__item
+        a.footer__link(href="#") Контакты
+    .footer__socials
+      span.footer__socials-descr Будь на связи:
+      ul.footer__socials-list.socials
+        li.socials__item
+          a.socials__link(href="#") Морские круизы вконтакте
+            svg.socials__icon(width="18", height="11")
+              use(xlink:href="img/sprite.svg#icon-vk")
+        li.socials__item
+          a.socials__link(href="#") Морские круизы в одноклассниках
+            svg.socials__icon(width="10", height="16")
+              use(xlink:href="img/sprite.svg#icon-ok")
+        li.socials__item
+          a.socials__link(href="#") Морские круизы на Youtube
+            svg.socials__icon(width="14", height="18")
+              use(xlink:href="img/sprite.svg#icon-youtube")
+        li.socials__item
+          a.socials__link(href="#") Морские круизы в instagram
+            svg.socials__icon(width="14", height="14")
+              use(xlink:href="img/sprite.svg#icon-insta")
+    .footer__contact.contact
+      a.contact__link(href="tel:88005006105") 8 800 500-61-05
+      span.contact__descr Круглосуточная поддержка
+      span.footer__contact-copyright &#169; 2016 OOO «Городские Круизы»
