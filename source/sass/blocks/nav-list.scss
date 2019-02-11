@@ -1,0 +1,24 @@
+.nav-list {
+  display: none;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 290px;
+  min-height: 413px;
+  margin: 0;
+  padding: 58px 45px 0;
+  font-size: 14px;
+  font-family: $font-roboto;
+  line-height: 20px;
+  letter-spacing: 0.9px;
+  list-style: none;
+  background-color: #0d3351;
+  z-index: 1;
+}
+
+.nav-list__link {
+  display: inline-block;
+  padding: 15px 0;
+  color: #ffffff;
+  text-decoration: none;
+}

@@ -1,0 +1,9 @@
+.nav__link {
+  display: inline-block;
+  position: relative;
+  width: 22px;
+  height: 16px;
+  font-size: 0;
+  text-align: left;
+  background-image: linear-gradient(to bottom, $main-color 0, $main-color 2px, transparent 2px, transparent 7px, $main-color 7px, $main-color 9px, transparent 9px, transparent 14px, $main-color 14px, $main-color 16px);
+}
