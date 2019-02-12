@@ -1,6 +1,6 @@
 .main {
-  width: 320px;
-  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 30px;
   text-align: center;
 }
@@ -19,6 +19,7 @@
 .main__link {
   display: inline-block;
   width: 202px;
+  margin-top: 20px;
   padding: 16px 0;
   padding-left: 10px;
   color: #ffffff;
