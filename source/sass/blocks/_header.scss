@@ -28,6 +28,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+
+    @media (min-width: $lg) {
+      bottom: -69px;
+    }
   }
 }
 
@@ -36,6 +40,10 @@
 
   @media (min-width: $md) {
     margin-top: 92px;
+  }
+
+  @media (min-width: $lg) {
+    margin-top: 30px;
   }
 }
 
@@ -77,6 +85,11 @@
     font-size: 26px;
     letter-spacing: 1.3px;
   }
+
+  @media (min-width: $lg) {
+    font-size: 36px;
+    letter-spacing: 1.8px;
+  }
 }
 
 .header__descr {
@@ -93,10 +106,21 @@
     font-size: 72px;
     letter-spacing: -1.8px;
   }
+
+  @media (min-width: $lg) {
+    margin-top: 23px;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -2.5px;
+  }
 }
 
 .header__bottom {
   margin-top: 43px;
+
+  @media (min-width: $lg) {
+    margin-top: 57px;
+  }
 }
 
 .header__link {

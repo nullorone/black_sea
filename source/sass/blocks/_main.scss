@@ -19,6 +19,12 @@
     font-size: 26px;
     letter-spacing: 1.3px;
   }
+
+  @media (min-width: $lg) {
+    margin-top: 60px;
+    font-size: 36px;
+    letter-spacing: 1.8px;
+  }
 }
 
 .main__link {

@@ -31,4 +31,8 @@
     width: ceil(percentage(218 / 750));
     margin-left: ceil(percentage(32 / 750));
   }
+
+  @media (min-width: $lg) {
+    margin-left: 0;
+  }
 }
