@@ -1,48 +1,62 @@
 header.header
-  .header__top
-    nav.header__nav.nav
-      ul.nav__list.nav-list
-        li.nav-list__item
-          a.nav-list__link(href="#") Популярные маршруты
-        li.nav-list__item
-          a.nav-list__link(href="#") Расписание рейсов
-        li.nav-list__item
-          a.nav-list__link(href="#") Забронированные рейсы
-        li.nav-list__item
-          a.nav-list__link(href="#") Вход для партнеров
-        li.nav-list__item
-          a.nav-list__link(href="#") О компании
-        li.nav-list__item
-          a.nav-list__link(href="#") Контакты
-    .header__options.option
-      .option__user-cabinet.user-cabinet
-        h4.user-cabinet__title Линый кабинет
-        ul.user-cabinet__list
-          li.user-cabinet__item
-            a.user-cabinet__link(href="#") Войти
-          li.user-cabinet__item
-            a.user-cabinet__link(href="#") Регистрация
-      .option__currency.currency
-        h4.currency__title Выбор валюты круизов
-        ul.currency__list
-          li.currency__item
-            a.currency__link(href="#") Рубль
-          li.currency__item
-            a.currency__link(href="#") Доллар
-          li.currency__item
-            a.currency__link(href="#") Евро
-      .option__lang.lang
-        h4.lang__title Выбор языка сайта
-        ul.lang__list
-          li.lang__item
-            a.lang__link(href="#") Ru
-          li.lang__item
-            a.lang__link(href="#") En
-      .option__contact.contact
-        a.contact__link(href="tel:88005006105") 8 800 500-61-05
-        span.contact__descr Круглосуточная поддержка
-  .header__middle
-    h1.header__title Морские прогулки
-    p.header__descr По Чёрному морю
-  .header__bottom
-    a.header__link(href="#") Выбрать круиз
+  .container
+    .header__top
+      nav.header__nav.nav
+        a.nav__link(href="#") Навигация сайта
+        ul.nav__list.nav-list
+          li.nav-list__item
+            a.nav-list__link(href="#") Популярные маршруты
+          li.nav-list__item
+            a.nav-list__link(href="#") Расписание рейсов
+          li.nav-list__item
+            a.nav-list__link(href="#") Забронированные рейсы
+          li.nav-list__item
+            a.nav-list__link(href="#") Вход для партнеров
+          li.nav-list__item
+            a.nav-list__link(href="#") О компании
+          li.nav-list__item
+            a.nav-list__link(href="#") Контакты
+      .header__options.option
+        .option__user-cabinet.user-cabinet
+          svg.user-cabinet__icon(width="10", height="12")
+            use(xlink:href="img/sprite.svg#icon-user")
+          h4.user-cabinet__title
+            | Личный кабинет
+          ul.user-cabinet__list
+            li.user-cabinet__item
+              a.user-cabinet__link(href="#") Войти
+            li.user-cabinet__item
+              a.user-cabinet__link(href="#") Регистрация
+          svg.option__icon(width="8", height="5")
+            use(xlink:href="img/sprite.svg#icon-arrow")
+        .option__currency.currency
+          h4.currency__title.visually-hidden
+            | Выбор валюты круизов
+          svg.currency__icon(width="10", height="12")
+            use(xlink:href="img/sprite.svg#icon-currency")
+          ul.currency__list
+            li.currency__item
+              a.currency__link(href="#") Рубль
+            li.currency__item
+              a.currency__link(href="#") Доллар
+            li.currency__item
+              a.currency__link(href="#") Евро
+          svg.option__icon.option__icon--currency(width="8", height="5")
+            use(xlink:href="img/sprite.svg#icon-arrow")
+        .option__lang.lang
+          h4.lang__title.visually-hidden Выбор языка сайта
+          ul.lang__list
+            li.lang__item
+              a.lang__link(href="#") Ru
+            li.lang__item
+              a.lang__link(href="#") En
+          svg.option__icon.option__icon--lang(width="8", height="5")
+            use(xlink:href="img/sprite.svg#icon-arrow")
+        .option__contact.contact
+          a.contact__link(href="tel:88005006105") 8 800 500-61-05
+          span.contact__descr Круглосуточная поддержка
+    .header__middle
+      h1.header__title Морские прогулки
+      p.header__descr По Чёрному морю
+    .header__bottom
+      a.header__link(href="#") Выбрать круиз

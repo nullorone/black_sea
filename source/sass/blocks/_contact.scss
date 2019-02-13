@@ -1,0 +1,29 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__link {
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  color: $main-color;
+  text-decoration: none;
+
+  &--footer {
+    margin-top: 15px;
+
+    @media (min-width: $md) {
+      margin-top: 0;
+    }
+  }
+}
+
+.contact__descr {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+
+  &--footer {
+    margin-top: 3px;
+  }
+}

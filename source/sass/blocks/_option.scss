@@ -1,0 +1,31 @@
+.option {
+  @media (min-width: $md) {
+    display: flex;
+    margin-top: -20px;
+  }
+}
+
+.option__icon {
+  margin-left: 5px;
+  transform: translateY(-3px);
+
+  &:hover ~ ul {
+    display: block;
+  }
+
+  &--currency {
+    position: absolute;
+    top: 13px;
+    right: 0;
+  }
+
+  &--lang {
+    position: absolute;
+    top: 13px;
+    right: 0;
+  }
+}
+
+.option__contact {
+  margin-left: 40px;
+}

@@ -1,0 +1,31 @@
+.sort__descr {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 0.7px;
+}
+
+.sort__list {
+  display: inline-block;
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+.sort__item {
+  &:not(:first-child) {
+    display: none;
+  }
+}
+
+.sort__link {
+  font-style: italic;
+  color: $main-color;
+  text-decoration: none;
+}
+
+.sort__icon {
+  transform: translateY(-2px);
+  margin-left: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,137 @@
+.header {
+  position: relative;
+  min-height: 585px;
+  padding-top: 27px;
+  background-image: url("../img/bg-header-sm.jpg");
+  background-repeat: no-repeat;
+  background-position: -30px top;
+
+  @media (min-width: 385px) and (max-width: $md) {
+    background-position: center top;
+  }
+
+  @media (min-width: $md) {
+    min-height: 598px;
+    background-image: url("../img/bg-header-md.jpg");
+    background-position: center top;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -54px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 238px;
+    background-image: url("../img/line.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+    @media (min-width: $lg) {
+      bottom: -69px;
+    }
+  }
+}
+
+.header__middle {
+  text-align: center;
+
+  @media (min-width: $md) {
+    margin-top: 92px;
+  }
+
+  @media (min-width: $lg) {
+    margin-top: 30px;
+  }
+}
+
+.header__options {
+  display: none;
+
+  @media (min-width: $md) {
+    display: block;
+  }
+}
+
+.header__title {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 54px;
+  font-family: $font-roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+
+  @media (min-width: $md) {
+    font-size: 26px;
+    letter-spacing: 1.3px;
+  }
+
+  @media (min-width: $lg) {
+    font-size: 36px;
+    letter-spacing: 1.8px;
+  }
+}
+
+.header__descr {
+  margin: 0;
+  margin-top: 7px;
+  font-family: $font-roboto;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -1.25px;
+  text-transform: uppercase;
+
+  @media (min-width: $md) {
+    font-size: 72px;
+    letter-spacing: -1.8px;
+  }
+
+  @media (min-width: $lg) {
+    margin-top: 23px;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -2.5px;
+  }
+}
+
+.header__bottom {
+  margin-top: 43px;
+
+  @media (min-width: $lg) {
+    margin-top: 57px;
+  }
+}
+
+.header__link {
+  display: block;
+  width: 202px;
+  margin: 0 auto;
+  padding: 16px 0;
+  text-align: center;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #33c7fd;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+}
