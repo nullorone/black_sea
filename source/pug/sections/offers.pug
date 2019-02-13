@@ -3,52 +3,56 @@ ul.main__offer.offers
     img.offers__img(src="img/anapa-sm.jpg", srcset="img/abrau-sm@2x.jpg 2x", alt="Круиз в Анапу")
     .offers__descr-wrapper
       h3.offers__title.offers__title--sm
-        a.offers__link(href="#") Морской круиз в Анапу
+        a.offers__link(href="#") Морской круиз в&nbsp;Анапу
         svg.offers__title-icon(width="8", height="5")
           use(xlink:href="../img/sprite.svg#icon-arrow")
       p.offers__property Маршрут:&nbsp;
-        span.offers__descr Сочи-Лазаревское-Геленджик-Анапа
+        span.offers__descr Сочи-Лазаревское-<br>Геленджик-Анапа
       p.offers__property Продолжительность:&nbsp;
         span.offers__descr 10 ч. 0 мин.
-      p.offers__price 49 000 руб.
+      .offers__price-wrapper
+        p.offers__price 49 000 руб.
   li.offers__item.label.label--promo
     img.offers__img(src="img/adler-sm.jpg", srcset="img/abrau-sm@2x.jpg 2x", alt="Морская прогулка в Адлер")
     .offers__descr-wrapper
       h3.offers__title
-        a.offers__link(href="#") Обзорная морская прогулка с экскурсией
+        a.offers__link(href="#") Обзорная морская прогулка с&nbsp;экскурсией
         svg.offers__title-icon(width="8", height="5")
           use(xlink:href="../img/sprite.svg#icon-arrow")
       p.offers__property Маршрут:&nbsp;
-        span.offers__descr Сочи-Адлер-Сочи (без высадки)
+        span.offers__descr Сочи-Адлер-Сочи<br> (без высадки)
       p.offers__property Продолжительность:&nbsp;
         span.offers__descr 1 ч. 0 мин.
-      p.offers__price 5 000 руб.
-      span.offers__price.offers__price--old 15000 руб.
+      .offers__price-wrapper
+        p.offers__price 5 000 руб.
+        span.offers__price.offers__price--old 15000 руб.
   li.offers__item.label.label--discount
     img.offers__img(src="img/gelenjik-sm.jpg", srcset="img/abrau-sm@2x.jpg 2x", alt="Морская прогулка в Геленджик")
     .offers__descr-wrapper
-      h3.offers__title
-        a.offers__link(href="") Морская прогулка в Геленджик
+      h3.offers__title.offers__title--md
+        a.offers__link(href="") Морская прогулка в&nbsp;Геленджик
         svg.offers__title-icon(width="8", height="5")
           use(xlink:href="../img/sprite.svg#icon-arrow")
       p.offers__property Маршрут:&nbsp;
         span.offers__descr Сочи-Туапсе-Геленджик
       p.offers__property Продолжительность:&nbsp;
         span.offers__descr 12 ч. 30 мин.
-      p.offers__price 7 000 руб.
-      span.offers__price.offers__price--old 10000 руб.
+      .offers__price-wrapper
+        p.offers__price 7 000 руб.
+        span.offers__price.offers__price--old 10000 руб.
   li.offers__item
     img.offers__img(src="img/novorossiysk-sm.jpg", srcset="img/abrau-sm@2x.jpg 2x", alt="Морской круиз в Новороссийск")
     .offers__descr-wrapper
-      h3.offers__title
-        a.offers__link(href="#") Морской круиз в Новороссийск
+      h3.offers__title.offers__title--md
+        a.offers__link(href="#") Морской круиз в&nbsp;Новороссийск
         svg.offers__title-icon(width="8", height="5")
           use(xlink:href="../img/sprite.svg#icon-arrow")
       p.offers__property Маршрут:&nbsp;
-        span.offers__descr Сочи-Геленджик-Новороссйиск-Геленджик-Сочи
+        span.offers__descr Сочи-Геленджик-<br>Новороссйиск-Геленджик-Сочи
       p.offers__property Продолжительность:&nbsp;
         span.offers__descr 13 ч. 0 мин.
-      p.offers__price 14 800 руб.
+      .offers__price-wrapper
+        p.offers__price 14 800 руб.
   li.offers__item
     //- img.offers__img(src="img/abrau-lg.jpg", srcset="img/abrau-lg@2x.jpg 2x", alt="Морская прогулка в Абрау-Дюрсо")
     .offers__descr-wrapper
@@ -60,4 +64,5 @@ ul.main__offer.offers
         span.offers__descr Сочи-Абрау-Дюрсо
       p.offers__property Продолжительность:&nbsp;
         span.offers__descr 11 ч. 0 мин.
-      p.offers__price 14 800 руб.
+      .offers__price-wrapper
+        p.offers__price 14 800 руб.
