@@ -6,11 +6,13 @@
   background-repeat: no-repeat;
   background-position: -30px top;
 
-  @media (min-width: 385px) and (max-width: 750px) {
+  @media (min-width: 385px) and (max-width: $md) {
     background-position: center top;
   }
 
-  @media (min-width: 750px) {
+  @media (min-width: $md) {
+    min-height: 598px;
+    background-image: url("../img/bg-header-md.jpg");
     background-position: center top;
   }
 
@@ -31,10 +33,18 @@
 
 .header__middle {
   text-align: center;
+
+  @media (min-width: $md) {
+    margin-top: 92px;
+  }
 }
 
 .header__options {
   display: none;
+
+  @media (min-width: $md) {
+    display: block;
+  }
 }
 
 .header__title {
@@ -62,6 +72,11 @@
     background-position: center center;
     background-size: contain;
   }
+
+  @media (min-width: $md) {
+    font-size: 26px;
+    letter-spacing: 1.3px;
+  }
 }
 
 .header__descr {
@@ -73,6 +88,11 @@
   line-height: 50px;
   letter-spacing: -1.25px;
   text-transform: uppercase;
+
+  @media (min-width: $md) {
+    font-size: 72px;
+    letter-spacing: -1.8px;
+  }
 }
 
 .header__bottom {

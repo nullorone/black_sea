@@ -3,9 +3,32 @@
   padding-bottom: 35px;
   text-align: center;
   background-color: #ffffff;
+
+  @media (min-width: $md) {
+    text-align: left;
+  }
+}
+
+.footer__wrapper {
+  @media (min-width: $md) {
+    display: flex;
+  }
+}
+
+.footer__contact {
+  @media (min-width: $md) {
+    margin-left: auto;
+  }
 }
 
 .footer__contact-copyright {
   margin-top: 5px;
   letter-spacing: 0.7px;
+}
+
+.footer__socials {
+  @media (min-width: $md) {
+    width: ceil(percentage(218 / 750));
+    margin-left: ceil(percentage(32 / 750));
+  }
 }

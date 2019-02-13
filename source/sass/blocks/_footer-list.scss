@@ -1,8 +1,21 @@
 .footer-list {
   display: none;
+
+  @media (min-width: $md) {
+    display: block;
+    width: ceil(percentage(188 / 750));
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 }
 
 .footer__socials-descr {
   display: block;
   letter-spacing: 0.7px;
+}
+
+.footer__link {
+  color: $main-color;
+  text-decoration: none;
 }
