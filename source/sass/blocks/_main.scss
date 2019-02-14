@@ -3,6 +3,10 @@
   padding-right: 15px;
   padding-bottom: 30px;
   text-align: center;
+
+  @media (min-width: $md) {
+    padding-bottom: 60px;
+  }
 }
 
 .main__title {
@@ -16,6 +20,7 @@
   letter-spacing: 1px;
 
   @media (min-width: $md) {
+    margin-top: 57px;
     font-size: 26px;
     letter-spacing: 1.3px;
   }
@@ -37,6 +42,10 @@
   background-color: #33c7fd;
   text-decoration: none;
   letter-spacing: 0.7px;
+
+  @media (min-width: $md) {
+    margin-top: 22px;
+  }
 }
 
 .main__link-icon {

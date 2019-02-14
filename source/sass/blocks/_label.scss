@@ -14,6 +14,10 @@
     text-transform: uppercase;
     background-color: #33c7fd;
     z-index: 1;
+
+    @media (min-width: $md) {
+      right: 32px;
+    }
   }
 
   &::after {
@@ -26,6 +30,10 @@
     height: 36px;
     border: 44px solid #33c7fd;
     border-bottom: 18px solid transparent;
+
+    @media (min-width: $md) {
+      right: 32px;
+    }
   }
 
   &--hit {
@@ -38,6 +46,10 @@
     &::before {
       content: "Акция";
       background-color: #e30613;
+
+      @media (min-width: $md) {
+        padding-top: 37px;
+      }
     }
 
     &::after {
