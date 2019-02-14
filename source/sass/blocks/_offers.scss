@@ -2,6 +2,7 @@
   max-width: 465px;
   margin: 0 auto;
   padding: 0;
+  padding-top: 7px;
   list-style: none;
   text-align: left;
 
@@ -26,8 +27,9 @@
 
 .offers__item {
   position: relative;
-  margin-top: 25px;
-  padding-bottom: 80px;
+  min-height: 465px;
+  margin-top: 20px;
+  padding-bottom: 85px;
   background-color: #ffffff;
 
   &:last-child {
@@ -132,19 +134,19 @@
 }
 
 .offers__descr-wrapper {
-  padding-top: 27px;
+  padding-top: 25px;
   padding-left: 22px;
 }
 
 .offers__title {
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
   padding: 0;
   color: #00a2dd;
   font-family: $font-roboto;
   font-size: 18px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 22px;
   letter-spacing: 0.9px;
 
   &--sm {
@@ -177,6 +179,10 @@
 
 .offers__descr {
   font-weight: 400;
+
+  &--row {
+    display: block;
+  }
 
   & br {
     display: none;

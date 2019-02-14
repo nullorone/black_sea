@@ -1,6 +1,7 @@
 .contact {
   display: flex;
   flex-direction: column;
+  transform: translateY(-7px);
 }
 
 .contact__link {
@@ -10,7 +11,7 @@
   text-decoration: none;
 
   &--footer {
-    margin-top: 15px;
+    margin-top: 19px;
 
     @media (min-width: $md) {
       margin-top: 0;
