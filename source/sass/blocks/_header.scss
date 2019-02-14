@@ -32,9 +32,9 @@
 
   @media (min-width: $lg) {
     padding-top: 29px;
-    min-height: 640px;
+    min-height: 647px;
     background-image: url("../img/bg-header-lg.jpg");
-    background-size: 100% 100%;
+    background-size: 144% 100%;
   }
 
   @media (min-width: $lg) and (min-resolution: 144dpi),
@@ -56,7 +56,9 @@
     background-size: contain;
 
     @media (min-width: $lg) {
-      bottom: -69px;
+      height: 298px;
+      bottom: -123px;
+      background-size: 100% 100%;
     }
   }
 }
@@ -105,6 +107,11 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+
+    @media (min-width: $lg) {
+      left: -7px;
+      background-size: auto;
+    }
   }
 
   @media (min-width: $md) {
@@ -113,6 +120,7 @@
   }
 
   @media (min-width: $lg) {
+    padding-top: 65px;
     font-size: 36px;
     letter-spacing: 1.8px;
   }
@@ -134,7 +142,7 @@
   }
 
   @media (min-width: $lg) {
-    margin-top: 23px;
+    margin-top: 32px;
     font-size: 100px;
     line-height: 100px;
     letter-spacing: -2.5px;
@@ -149,7 +157,7 @@
   }
 
   @media (min-width: $lg) {
-    margin-top: 57px;
+    margin-top: 46px;
   }
 }
 

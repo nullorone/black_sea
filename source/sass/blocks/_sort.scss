@@ -1,3 +1,9 @@
+.sort {
+  @media (min-width: $lg) {
+    margin-top: 8px;
+  }
+}
+
 .sort__descr {
   display: inline-block;
   position: relative;

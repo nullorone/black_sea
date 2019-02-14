@@ -18,6 +18,10 @@
     @media (min-width: $md) {
       right: 32px;
     }
+
+    @media (min-width: $lg) {
+      right: 47px;
+    }
   }
 
   &::after {
@@ -33,6 +37,10 @@
 
     @media (min-width: $md) {
       right: 32px;
+    }
+
+    @media (min-width: $lg) {
+      right: 47px;
     }
   }
 
