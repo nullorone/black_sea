@@ -186,9 +186,14 @@
   margin: 0;
   font-weight: 700;
   letter-spacing: 0.7px;
+
+  &--schedule {
+    margin-top: 7px;
+  }
 }
 
 .offers__descr {
+  margin: 0;
   font-weight: 400;
 
   &--row {
@@ -210,6 +215,10 @@
       display: none;
     }
   }
+}
+
+.offers__descr-block {
+  padding-right: 35px;
 }
 
 .offers__price-wrapper {

@@ -1,0 +1,17 @@
+.modal-list {
+  max-width: 370px;
+  margin: 0;
+  margin-top: 7px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-list__item {
+  margin-right: 9px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
