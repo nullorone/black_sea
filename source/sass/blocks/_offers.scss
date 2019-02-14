@@ -218,7 +218,9 @@
 }
 
 .offers__descr-block {
-  padding-right: 35px;
+  @media (min-width: $md) {
+    padding-right: 35px;
+  }
 }
 
 .offers__price-wrapper {
